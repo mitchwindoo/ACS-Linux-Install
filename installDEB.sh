@@ -35,7 +35,7 @@ sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_
 echo "Updating the package system and installing any available updates prior to software install"
 sudo apt update && sudo apt upgrade
 echo "Installing new software for VM Management, Nvidia drivers, and other system utilities"
-sudo apt install node-typescript make git gnome-tweaks gnome-shell-extensions network-manager-openvpn-gnome ulauncher tlp tlp-rdw gnome-user-share samba conky-all qemu qemu-kvm libvirt-daemon libvirt-clients bridge-utils virt-manager timeshift snapd sublime-text nvidia-driver-495 discord pgadmin4-desktop fish neofetch zsh chrome-gnome-shell ubuntu-restricted-extras unzip p7zip unrar 
+sudo apt install node-typescript make git gnome-tweaks gnome-shell-extensions network-manager-openvpn-gnome ulauncher tlp tlp-rdw gnome-user-share samba conky-all qemu qemu-kvm libvirt-daemon libvirt-clients bridge-utils virt-manager timeshift snapd sublime-text nvidia-driver-495 discord pgadmin4-desktop fish neofetch zsh chrome-gnome-shell ubuntu-restricted-extras unzip p7zip unrar unattended-upgrades
 flatpak install flathub io.github.celluloid_player.Celluloid 
 
 # Install RDP Client
